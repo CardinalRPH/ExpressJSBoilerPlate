@@ -6,7 +6,7 @@
 
 import app from "../app";
 import debugLib from "debug";
-const debug = debugLib("calendar-by-full-calendar:server");
+const debug = debugLib("<serverName>:server");
 import { createServer } from "http";
 
 /**
@@ -86,7 +86,7 @@ function onListening() {
     console.error("Server address is null.");
     return;
   }
-  const bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
+  const bind = typeof addr === "string" ? "pipe " + addr : "http://localhost:" + addr.port;
   debug("Listening on " + bind);
   console.log(`Listening on ${bind}`);
 }
