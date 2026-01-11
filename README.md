@@ -1,7 +1,7 @@
 
-# All Node Boiler Plate
+# ExpressJs Node Boiler Plate
 
-A boiler plate for all project with NodeJS that i've been used
+A ExpressJs boiler plate for all project with NodeJS + ExpressJS that i've been used
 include for Typescript and and Javascript
 
 
